@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9C0CCAF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Domain", "src\MyBusiness.Domain\MyBusiness.Domain.csproj", "{160BA532-3561-4C9A-A868-4B036E7C2949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Application", "MyBusiness.Application\MyBusiness.Application.csproj", "{C2543F18-01BC-4AB2-8C6C-17E40F36C208}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Application", "src\MyBusiness.Application\MyBusiness.Application.csproj", "{C2543F18-01BC-4AB2-8C6C-17E40F36C208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Infrastructure", "MyBusiness.Infrastructure\MyBusiness.Infrastructure.csproj", "{4A347F99-96AC-4BCE-B82C-D9A2CE8EE9B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Infrastructure", "src\MyBusiness.Infrastructure\MyBusiness.Infrastructure.csproj", "{4A347F99-96AC-4BCE-B82C-D9A2CE8EE9B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Presentation", "MyBusiness.Presentation\MyBusiness.Presentation.csproj", "{637C7668-DBE3-45A0-9D0D-401245428A7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Presentation", "src\MyBusiness.Presentation\MyBusiness.Presentation.csproj", "{637C7668-DBE3-45A0-9D0D-401245428A7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Host", "MyBusiness.Host\MyBusiness.Host.csproj", "{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Host", "src\MyBusiness.Host\MyBusiness.Host.csproj", "{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

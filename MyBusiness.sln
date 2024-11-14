@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Presentation", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBusiness.Host", "src\MyBusiness.Host\MyBusiness.Host.csproj", "{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire", "src\Aspire\Aspire.csproj", "{56FCF3F6-9E52-4596-9EFF-FC8D818EF72E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,7 @@ Global
 		{4A347F99-96AC-4BCE-B82C-D9A2CE8EE9B8} = {0C5F413A-4F32-4CBD-A79F-DB3F261E2B43}
 		{637C7668-DBE3-45A0-9D0D-401245428A7F} = {0C5F413A-4F32-4CBD-A79F-DB3F261E2B43}
 		{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E} = {0C5F413A-4F32-4CBD-A79F-DB3F261E2B43}
+		{56FCF3F6-9E52-4596-9EFF-FC8D818EF72E} = {0C5F413A-4F32-4CBD-A79F-DB3F261E2B43}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{160BA532-3561-4C9A-A868-4B036E7C2949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -53,5 +56,9 @@ Global
 		{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9975FBD-523E-4C7F-9497-0D3BB8CDDC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FCF3F6-9E52-4596-9EFF-FC8D818EF72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FCF3F6-9E52-4596-9EFF-FC8D818EF72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FCF3F6-9E52-4596-9EFF-FC8D818EF72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FCF3F6-9E52-4596-9EFF-FC8D818EF72E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

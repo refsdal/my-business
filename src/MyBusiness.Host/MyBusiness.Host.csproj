@@ -7,6 +7,22 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <IsPublishable>true</IsPublishable>
+        <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+        <ContainerRepository>refsdal/my-business</ContainerRepository>
+        <PublishProfile>DefaultContainer</PublishProfile>
+        <ContainerFamily>alpine</ContainerFamily>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ContainerLabel Include="org.opencontainers.image.title" Value="My Business" />
+        <ContainerLabel Include="org.opencontainers.image.description" Value="An all-in-one solution for managing your business" />
+        <ContainerLabel Include="org.opencontainers.image.source" Value="https://github.com/refsdal/my-business" />
+        <ContainerLabel Include="org.opencontainers.image.authors" Value="refsdal" />
+        <ContainerLabel Include="org.opencontainers.image.licenses" Value="GNU General Public License v3.0" />
+    </ItemGroup>
+
     <ItemGroup>
       <ProjectReference Include="..\MyBusiness.Infrastructure\MyBusiness.Infrastructure.csproj" />
       <ProjectReference Include="..\MyBusiness.Presentation\MyBusiness.Presentation.csproj" />
